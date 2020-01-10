@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 gem "rspec"
 gem "sinatra", "1.4.4"
+
+group :test do 
  
 group :development do
 gem "pry"
